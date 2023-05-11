@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a32ad796349e9d04dc4f75824cd3729a",
+    "content-hash": "eb044e963def812fb63458fb3359ef18",
     "packages": [
         {
             "name": "composer/installers",
@@ -157,7 +157,10 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/sixmonkey/Works/folivoro/plugin",
-                "reference": "e1dbc83020bb3c4ded0306676c29a21bde0906a0"
+                "reference": "6384b87209ae2f3029ca5d3b8beca1a7f3d4e1c6"
+            },
+            "require": {
+                "php": "^8.1"
             },
             "type": "wordpress-muplugin",
             "license": [
@@ -3983,7 +3986,9 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^8.1"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }
